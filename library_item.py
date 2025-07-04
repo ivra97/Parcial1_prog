@@ -88,7 +88,7 @@ def find_by_title(items: list[LibraryItem], title: str) -> list[LibraryItem]:
 
 if __name__ == "__main__":
 
-    b = Book("El Principito", 1, "Antoine de Saint-Exupéry", 96)
+    b = Book("El pepe", 1, "Rodrigo Ochoa", 7000)
     m = Magazine("National Geographic", 2, 2023)
 
     print(b.checkout("Juan"))
